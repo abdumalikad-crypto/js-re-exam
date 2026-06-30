@@ -788,4 +788,57 @@ border: #e91e63;
     color: #1e2640;
     font-weight: bold;
     margin: 5px 0 10px 0;
-} 
+}   
+
+
+@media (max-width: 768px) {
+    .steps-flex {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr); 
+        gap: 25px;
+        padding: 0 15px;
+    }
+
+    .step-card {
+        width: 100%;
+        text-align: center;
+    }
+    .step-img-box img {
+        width: 100%;
+        max-width: 200px; 
+        height: auto;
+        margin: 0 auto;
+    }
+    .about-flex {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 15px;
+        text-align: center;
+        padding: 0 20px;
+    }
+
+    .about-title {
+        font-size: 28px; 
+    }
+
+    .video-wrapper-box video {
+        width: 100%;
+        height: auto; 
+    }
+    .testimonial-box {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        text-align: center;
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .testimonial-avatar-wrapper {
+        margin: 0 auto; 
+    }
+
+    .testimonial-arrows {
+        justify-content: center; 
+        margin-top: 15px;
+    }
+}
